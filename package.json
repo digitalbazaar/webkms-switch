@@ -1,0 +1,37 @@
+{
+  "name": "web-kms-switch",
+  "version": "0.0.1-0",
+  "description": "JavaScript Web KMS switch",
+  "license": "BSD-3-Clause",
+  "main": "./lib",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/web-kms-switch"
+  },
+  "keywords": [
+    "kms",
+    "web kms"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/web-kms-switch/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/web-kms-switch",
+  "directories": {
+    "lib": "./lib"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-digitalbazaar": "^2.0.0"
+  },
+  "dependencies": {
+    "ajv": "^6.0.0",
+    "jsonld-signatures": "^4.0.1",
+    "ocapld": "^1.1.0"
+  }
+}

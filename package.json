@@ -32,6 +32,6 @@
   "dependencies": {
     "ajv": "^6.0.0",
     "jsonld-signatures": "^4.0.1",
-    "ocapld": "^1.1.0"
+    "ocapld": "^1.2.0"
   }
 }

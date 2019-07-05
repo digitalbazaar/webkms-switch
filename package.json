@@ -31,7 +31,9 @@
   },
   "dependencies": {
     "ajv": "^6.0.0",
+    "bs58": "^4.0.1",
+    "http-signature-zcap-verify": "github:digitalbazaar/http-signature-zcap-verify#initial",
     "jsonld-signatures": "^4.0.1",
-    "ocapld": "^1.2.0"
+    "ocapld": "^1.3.0"
   }
 }

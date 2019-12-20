@@ -1,2 +1,2 @@
-# web-kms-switch
-A JavaScript Web Kms switch library
+# webkms-switch
+A JavaScript WebKMS switch library

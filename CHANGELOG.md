@@ -1,6 +1,6 @@
 # webkms-switch ChangeLog
 
-## 1.1.0 - 2020-02-xx
+## 1.1.0 - 2020-02-04
 
 ### Changed
 - Do not require `controller` when generating a key. The controller

@@ -1,6 +1,6 @@
 # webkms-switch ChangeLog
 
-## 1.2.0 - TBD
+## 1.2.0 - 2020-02-07
 
 ### Added
 - Add support for `inspectCapabilityChain` handler in `validateOperation`. This

@@ -1,5 +1,10 @@
 # webkms-switch ChangeLog
 
+## 1.4.0 - 2020-02-19
+
+### Changed
+- Use http-signature-zcap-verify@2.
+
 ## 1.3.0 - 2020-02-14
 
 ### Changed

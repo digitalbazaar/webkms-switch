@@ -4,7 +4,9 @@
   "description": "JavaScript WebKMS switch",
   "license": "BSD-3-Clause",
   "main": "./lib",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint lib"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalbazaar/webkms-switch"

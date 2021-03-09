@@ -1,5 +1,11 @@
 # webkms-switch ChangeLog
 
+## x.x.x - TBD
+
+### Changed
+- Use http-signature-zcap-verify@4.
+- Use jsonld-signatures@7.
+
 ## 2.0.0 - 2020-04-02
 
 ### Changed

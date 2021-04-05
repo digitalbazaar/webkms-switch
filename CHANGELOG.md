@@ -1,5 +1,11 @@
 # webkms-switch ChangeLog
 
+## 4.0.0 - 
+
+### Changed
+- **BREAKING**: Use latest version of `http-signature-zcap-verify`.
+- Remove unused dependencies (`ocapld`, `jsonld-signatures`).
+
 ## 3.0.0 - 2021-03-09
 
 ### Changed

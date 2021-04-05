@@ -28,15 +28,14 @@
   "directories": {
     "lib": "./lib"
   },
-  "devDependencies": {
-    "eslint": "^7.19.0",
-    "eslint-config-digitalbazaar": "^2.6.1"
-  },
   "dependencies": {
     "ajv": "^6.0.0",
     "bs58": "^4.0.1",
-    "http-signature-zcap-verify": "^4.0.0",
-    "jsonld-signatures": "^7.0.0",
-    "ocapld": "^2.0.0"
+    "http-signature-zcap-verify": "digitalbazaar/http-signature-zcap-verify#zcapld",
+    "security-context": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-digitalbazaar": "^2.6.1"
   }
 }

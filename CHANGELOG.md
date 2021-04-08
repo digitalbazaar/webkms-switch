@@ -1,9 +1,12 @@
 # webkms-switch ChangeLog
 
-## 4.0.0 - 
+## 4.0.0 -
 
 ### Changed
 - **BREAKING**: Use latest version of `http-signature-zcap-verify`.
+  - Only support `Ed25519Signature2020` proofs.
+  - Node.js >= 12 is required
+  - https://github.com/digitalbazaar/http-signature-zcap-verify/blob/main/CHANGELOG.md
 - Remove unused dependencies (`ocapld`, `jsonld-signatures`).
 
 ## 3.0.0 - 2021-03-09

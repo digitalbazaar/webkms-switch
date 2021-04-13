@@ -32,7 +32,7 @@
     "ajv": "^6.0.0",
     "bs58": "^4.0.1",
     "http-signature-zcap-verify": "^6.0.0",
-    "security-context": "^4.0.0"
+    "webkms-context": "digitalbazaar/webkms-context#initial"
   },
   "devDependencies": {
     "eslint": "^7.19.0",

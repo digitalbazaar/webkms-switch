@@ -1,5 +1,10 @@
 # webkms-switch ChangeLog
 
+## 5.0.0 - 2021-04-TBD
+
+### Changed
+- **BREAKING**: Use [webkms-context@1.0](https://github.com/digitalbazaar/webkms-context/blob/main/CHANGELOG.md).
+
 ## 4.0.0 - 2021-04-08
 
 ### Changed

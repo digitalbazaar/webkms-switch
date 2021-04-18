@@ -4,7 +4,7 @@
 
 ### Changed
 - **BREAKING**: Use [webkms-context@1.0](https://github.com/digitalbazaar/webkms-context/blob/main/CHANGELOG.md).
-- **BREAKING**: Operation context is now type array.
+- **BREAKING**: Context for GenerateKeyOperation is now type array.
 
 ## 4.0.0 - 2021-04-08
 

@@ -31,7 +31,7 @@
   "dependencies": {
     "ajv": "^6.0.0",
     "bs58": "^4.0.1",
-    "http-signature-zcap-verify": "^6.0.0",
+    "http-signature-zcap-verify": "digitalbazaar/http-signature-zcap-verify#update-zcapld",
     "webkms-context": "^1.0.0"
   },
   "devDependencies": {

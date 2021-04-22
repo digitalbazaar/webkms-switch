@@ -6,6 +6,8 @@
 - **BREAKING**: Use [webkms-context@1.0](https://github.com/digitalbazaar/webkms-context/blob/main/CHANGELOG.md).
 - **BREAKING**: Context for GenerateKeyOperation is now type array.
 - Use [`ed25519-signature-2020-context@1.1.0`](https://github.com/digitalbazaar/ed25519-signature-2020-context/blob/master/CHANGELOG.md).
+- Use [`aes-key-wrapping-2019-context@1.0.3`](https://github.com/digitalbazaar/aes-key-wrapping-2019-context/blob/main/CHANGELOG.md).
+- Use [`sha256-hmac-key-2019-context@1.0.3`](https://github.com/digitalbazaar/sha256-hmac-key-2019-context/blob/main/CHANGELOG.md).
 
 ## 4.0.0 - 2021-04-08
 

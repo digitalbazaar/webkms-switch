@@ -32,7 +32,7 @@
     "aes-key-wrapping-2019-context": "^1.0.2",
     "ajv": "^6.0.0",
     "bs58": "^4.0.1",
-    "ed25519-signature-2020-context": "^1.0.1",
+    "ed25519-signature-2020-context": "^1.1.0",
     "http-signature-zcap-verify": "digitalbazaar/http-signature-zcap-verify#update-zcapld",
     "sha256-hmac-key-2019-context": "^1.0.2",
     "webkms-context": "^1.0.0",

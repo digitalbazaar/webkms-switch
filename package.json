@@ -29,6 +29,10 @@
     "lib": "./lib"
   },
   "dependencies": {
+    "@digitalbazaar/ed25519-verification-key-2018": "^3.1.1",
+    "@digitalbazaar/ed25519-verification-key-2020": "^2.1.1",
+    "@digitalbazaar/x25519-key-agreement-key-2019": "^5.1.0",
+    "@digitalbazaar/x25519-key-agreement-key-2020": "^1.2.0",
     "aes-key-wrapping-2019-context": "^1.0.3",
     "ajv": "^6.0.0",
     "bs58": "^4.0.1",

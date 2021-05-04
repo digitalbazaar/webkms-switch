@@ -1,6 +1,6 @@
 # webkms-switch ChangeLog
 
-## 5.0.0 - 2021-04-TBD
+## 5.0.0 - 2021-05-04
 
 ### Changed
 - **BREAKING**: Context for GenerateKeyOperation is now type array.

@@ -1,5 +1,16 @@
 # webkms-switch ChangeLog
 
+## 6.0.0 - 2021-05-xx
+
+### Changed
+- **BREAKING**: Remove key-type specific contexts. This package should be
+  key-type agnostic. The key-type specific contexts were being used for
+  validation; this has been replaced with a new required
+  `validateKeyType` function that must be passed to `validateOperation`.
+  This function must return `{valid: true/false, error: Error/undefined/null}`
+  and will receive `{operation}` as a parameter -- when the operation type
+  is a key generation operation.
+
 ## 5.0.0 - 2021-05-04
 
 ### Changed

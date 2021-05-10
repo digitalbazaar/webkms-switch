@@ -1,6 +1,6 @@
 # webkms-switch ChangeLog
 
-## 6.0.0 - 2021-05-xx
+## 6.0.0 - 2021-05-10
 
 ### Changed
 - **BREAKING**: Remove key-type specific contexts. This package should be

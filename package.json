@@ -29,14 +29,18 @@
     "lib": "./lib"
   },
   "dependencies": {
+    "@digitalbazaar/ezcap-express": "^3.1.0",
+    "@digitalbazaar/http-digest-header": "^1.0.0",
     "ajv": "^6.0.0",
     "base58-universal": "^1.0.0",
+    "express-async-handler": "^1.1.4",
     "http-signature-zcap-verify": "^7.1.0",
     "webkms-context": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.19.0",
-    "eslint-config-digitalbazaar": "^2.6.1"
+    "eslint": "^7.21.0",
+    "eslint-config-digitalbazaar": "^2.6.1",
+    "eslint-plugin-jsdoc": "^32.2.0"
   },
   "engines": {
     "node": ">=12.0.0"

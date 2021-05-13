@@ -8,16 +8,23 @@
   that is to be used as the main handler for a keystore's `/keys` route. The
   handler will validate KMS operations and attempt to execute them by relying
   on provided the interfaces: `KeystoreConfigStorage` and `ModuleManager`.
-  Now, instead of providing a storage interface for keys, the user must provide
-  an interface to get a keystore configuration. This function will be passed
-  the HTTP request object and `keyId` for the key that is (or is to be
-  generated) in the requested keystore; it must return the keystore config
-  which must contain the `kmsModule` identifier to use for all keys in that
-  keystore. Additionally, the module now relies on `ezcap-express` and the
+- **BREAKING**: Key descriptions must now be stored independently by individual
+  WebKMS modules. These modules already had to store key information, this
+  change consolidates all key description information in one place to simplify
+  implementations. This module instead now requires the user to implement a
+  storage interface (`KeystoreConfigStorage`) for getting keystore
+  configuration. The `get` function in this interface will be passed the HTTP
+  request object and `keyId` for the key that is (or is to be generated) in the
+  requested keystore. It must return the keystore config which must contain the
+  `kmsModule` identifier to use for all keys in that keystore. It may perform
+  additional security checks on the request (such as IP security measures)
+  and throw exceptions if the keystore config should not be returned.
+- **BREAKING**: This module now relies on `ezcap-express` and the
   `urn:zcap:root` identifier scheme for root zcaps. A keystore's root zcap
   is now the root zcap for all keys in the keystore.
 - Now HTTP digests will be computed for KMS operations that travel in HTTP
-  request bodies and checked against the HTTP Digest header value.
+  request bodies and checked against the HTTP Digest header value. Users of
+  this library need not perform that check on their own.
 
 ### Removed
 - Old `validateOperation` and `runOperation` functions. Use `createMiddleware`

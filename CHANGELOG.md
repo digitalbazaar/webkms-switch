@@ -27,8 +27,10 @@
   this library need not perform that check on their own.
 
 ### Removed
-- Old `validateOperation` and `runOperation` functions. Use `createMiddleware`
-  instead on a keystore's `/keys` route.
+- Old `validateOperation` function. Use `createMiddleware` instead on a
+  keystore's `/keys` route to both validate and run a WebKMS operation. A
+  `runOperation` method is still exposed for testing purposes, but it does
+  no validation of the operation passed to it.
 
 ## 6.0.0 - 2021-05-10
 

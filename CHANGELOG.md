@@ -31,6 +31,8 @@
   keystore's `/keys` route to both validate and run a WebKMS operation. A
   `runOperation` method is still exposed for testing purposes, but it does
   no validation of the operation passed to it.
+- **BREAKING**: Do not allow `controller` when generating a key, this
+  value will be determined by the keystore.
 
 ## 6.0.0 - 2021-05-10
 

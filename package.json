@@ -4,6 +4,7 @@
   "description": "JavaScript WebKMS switch",
   "license": "BSD-3-Clause",
   "main": "./lib",
+  "module": "lib/main.js",
   "scripts": {
     "lint": "eslint lib"
   },
@@ -30,7 +31,6 @@
   },
   "dependencies": {
     "@digitalbazaar/ezcap-express": "^3.2.0",
-    "@digitalbazaar/http-digest-header": "^1.0.0",
     "ajv": "^6.0.0",
     "base58-universal": "^1.0.0",
     "esm": "^3.2.25",

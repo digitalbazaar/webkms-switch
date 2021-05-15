@@ -2,6 +2,9 @@
 
 ## 7.0.0 - 2021-05-xx
 
+### Added
+- Auto-generate key ID when not present in key gen operations.
+
 ### Changed
 - **BREAKING**: This module has undergone a significant rewrite to simplify
   webkms server implementations. It now exposes a `createMiddleware` function

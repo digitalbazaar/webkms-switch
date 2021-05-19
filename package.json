@@ -30,7 +30,7 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "@digitalbazaar/ezcap-express": "^3.2.0",
+    "@digitalbazaar/ezcap-express": "^3.3.0",
     "ajv": "^6.0.0",
     "base58-universal": "^1.0.0",
     "esm": "^3.2.25",

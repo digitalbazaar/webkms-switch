@@ -1,9 +1,11 @@
 # webkms-switch ChangeLog
 
-## 7.0.0 - 2021-05-xx
+## 7.0.0 - 2021-06-xx
 
 ### Added
 - Auto-generate key ID when not present in key gen operations.
+- Added `onSuccess` optional handler that will be called after a WebKMS
+  operation has succeeded and a response has been scheduled.
 
 ### Changed
 - **BREAKING**: This module has undergone a significant rewrite to simplify

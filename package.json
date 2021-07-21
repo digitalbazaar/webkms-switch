@@ -35,11 +35,11 @@
     "base58-universal": "^1.0.0",
     "esm": "^3.2.25",
     "express-async-handler": "^1.1.4",
-    "http-signature-zcap-verify": "^8.0.0",
+    "http-signature-zcap-verify": "^8.1.1",
     "webkms-context": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.21.0",
+    "eslint": "^7.31.0",
     "eslint-config-digitalbazaar": "^2.6.1",
     "eslint-plugin-jsdoc": "^32.2.0"
   },

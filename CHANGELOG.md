@@ -1,6 +1,6 @@
 # webkms-switch ChangeLog
 
-## 7.0.0 - 2021-06-xx
+## 7.0.0 - 2021-07-22
 
 ### Added
 - Auto-generate key ID when not present in key gen operations.

@@ -1,5 +1,10 @@
 # webkms-switch ChangeLog
 
+## 5.0.1 - 2021-08-xx
+
+### Fixed
+- Update deps to pull in fixed ed25519* packages.
+
 ## 5.0.0 - 2021-05-04
 
 ### Changed

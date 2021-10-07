@@ -1,5 +1,14 @@
 # webkms-switch ChangeLog
 
+## 8.0.0 - TBD
+
+### Changed
+- **BREAKING**: Always use `https://` protocol prefix when generating key IDs
+  during a `GenerateKeyOperation` operation. Although the local KMS server
+  instance may be running in HTTP mode (behind a firewall/proxy) and received
+  the request from a proxy/firewall via HTTP, the URLs for keys should always
+  be HTTPS. External parties will always access the key via HTTPS.
+
 ## 7.0.0 - 2021-07-22
 
 ### Added

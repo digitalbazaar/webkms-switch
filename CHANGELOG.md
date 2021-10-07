@@ -1,6 +1,6 @@
 # webkms-switch ChangeLog
 
-## 8.0.0 - TBD
+## 8.0.0 - 2021-10-07
 
 ### Changed
 - **BREAKING**: Always use `https://` protocol prefix when generating key IDs

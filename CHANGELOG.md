@@ -1,5 +1,15 @@
 # webkms-switch ChangeLog
 
+## 9.0.0 - 2022-01-xx
+
+### Changed
+- **BREAKING**: `createMiddleware` has been renamed to
+  `createOperationMiddleware` to more clearly express what it is a middleware
+  for KMS operations.
+- **BREAKING**: Use new versions of ezcap-express and zcapld. This means that
+  `suiteFactory` is now a required parameter for `createOperationMiddleware`,
+  replacing `suite`.
+
 ## 8.0.0 - 2021-10-07
 
 ### Changed

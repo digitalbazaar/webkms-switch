@@ -5,7 +5,7 @@
 ### Added
 - Pass `controller` (controller of the key) to KMS module key operation
   methods. This value must be included to enable `publicAliasTemplate`
-  processing when generating keys.
+  processing when generating keys and getting key descriptions.
 - Optionally accept `publicAlias` and `publicAliasTemplate` in generate key
   operations.
 - Define `UpdateKeyOperation` schema.

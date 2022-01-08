@@ -17,6 +17,8 @@
 - **BREAKING**: Use new versions of ezcap-express and zcapld. This means that
   `suiteFactory` is now a required parameter for `createOperationMiddleware`,
   replacing `suite`.
+- **BREAKING**: `runOperation` now returns the `keyId` for the key from the
+  operation that was run.
 
 ### Removed
 - **BREAKING**: Remove unused and out-of-date `capabilityInvocationProof`

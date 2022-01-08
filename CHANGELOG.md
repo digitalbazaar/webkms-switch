@@ -2,6 +2,11 @@
 
 ## 9.0.0 - 2022-01-xx
 
+### Added
+- Pass `controller` (controller of the key) to KMS module key operation
+  methods. This value must be included to enable `publicAliasTemplate`
+  processing when generating keys.
+
 ### Changed
 - **BREAKING**: `createMiddleware` has been renamed to
   `createOperationMiddleware` to more clearly express what it is a middleware

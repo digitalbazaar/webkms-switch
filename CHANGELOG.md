@@ -6,6 +6,9 @@
 - Pass `controller` (controller of the key) to KMS module key operation
   methods. This value must be included to enable `publicAliasTemplate`
   processing when generating keys.
+- Optionally accept `publicAlias` and `publicAliasTemplate` in generate key
+  operations.
+- Define `UpdateKeyOperation` schema.
 
 ### Changed
 - **BREAKING**: `createMiddleware` has been renamed to
@@ -14,6 +17,10 @@
 - **BREAKING**: Use new versions of ezcap-express and zcapld. This means that
   `suiteFactory` is now a required parameter for `createOperationMiddleware`,
   replacing `suite`.
+
+### Removed
+- **BREAKING**: Remove unused and out-of-date `capabilityInvocationProof`
+  JSON schema.
 
 ## 8.0.0 - 2021-10-07
 

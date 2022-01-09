@@ -36,7 +36,7 @@
     "esm": "^3.2.25",
     "express-async-handler": "^1.1.4",
     "http-signature-zcap-verify": "digitalbazaar/http-signature-zcap-verify#zcapld-upgrade",
-    "webkms-context": "^1.0.0"
+    "webkms-context": "digitalbazaar/webkms-context#public-alias"
   },
   "devDependencies": {
     "eslint": "^7.31.0",

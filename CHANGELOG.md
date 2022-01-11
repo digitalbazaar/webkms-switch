@@ -1,5 +1,13 @@
 # webkms-switch ChangeLog
 
+## 9.0.1 - 2022-01-xx
+
+### Changed
+- Update dependencies.
+
+### Fixed
+- Fix schema warning.
+
 ## 9.0.0 - 2022-01-11
 
 ### Added

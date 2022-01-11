@@ -30,7 +30,6 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "@digitalbazaar/http-signature-zcap-verify": "^10.0.0",
     "@digitalbazaar/ezcap-express": "^5.0.0",
     "@digitalbazaar/webkms-context": "^2.0.0",
     "ajv": "^8.8.2",

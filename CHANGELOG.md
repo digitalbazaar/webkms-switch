@@ -1,5 +1,10 @@
 # webkms-switch ChangeLog
 
+## 9.0.3 - 2022-01-xx
+
+### Fixed
+- Fix imports.
+
 ## 9.0.2 - 2022-01-11
 
 ### Fixed

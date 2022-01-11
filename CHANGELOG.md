@@ -1,6 +1,6 @@
 # webkms-switch ChangeLog
 
-## 9.0.0 - 2022-01-xx
+## 9.0.0 - 2022-01-11
 
 ### Added
 - Pass `controller` (controller of the key) to KMS module key operation

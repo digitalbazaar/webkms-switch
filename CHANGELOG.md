@@ -1,5 +1,10 @@
 # webkms-switch ChangeLog
 
+## 9.0.2 - 2022-01-xx
+
+### Fixed
+- Fix linting errors.
+
 ## 9.0.1 - 2022-01-11
 
 ### Changed

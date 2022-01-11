@@ -1,6 +1,6 @@
 {
   "name": "@digitalbazaar/webkms-switch",
-  "version": "9.0.2-0",
+  "version": "9.0.2",
   "description": "JavaScript WebKMS switch",
   "license": "BSD-3-Clause",
   "main": "./lib",

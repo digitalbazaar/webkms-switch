@@ -12,6 +12,10 @@
   one use case is to prohibit invocations that use zcap chains
   that are too long.
 
+### Fixed
+- Ensure `onError` is called when an error occurs during a
+  KMS operation.
+
 ## 9.0.3 - 2022-01-11
 
 ### Fixed

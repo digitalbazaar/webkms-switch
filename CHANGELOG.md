@@ -1,4 +1,16 @@
-# webkms-switch ChangeLog
+# @digitalbazaar/webkms-switch ChangeLog
+
+## 9.1.0 - 2022-01-xx
+
+### Added
+- Allow `maxCapabilityChainLength` to be included in generate
+  and update key operations.
+- Pass `zcapInvocation` from ezcap-express (`req.zcap`) through
+  to `runOperation` and called `method`. This information allows
+  specific key operations to consider how the key was invoked
+  in determining whether to complete the key operation or not;
+  one use case is to prohibit invocations that use zcap chains
+  that are too long.
 
 ## 9.0.3 - 2022-01-11
 

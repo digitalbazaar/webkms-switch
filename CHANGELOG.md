@@ -1,6 +1,6 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
-## 9.1.0 - 2022-01-xx
+## 9.1.0 - 2022-01-14
 
 ### Added
 - Allow `maxCapabilityChainLength` to be included in generate

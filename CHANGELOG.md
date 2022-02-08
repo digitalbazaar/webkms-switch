@@ -1,6 +1,6 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
-## 9.2.0 - 2022-02-xx
+## 9.2.0 - 2022-02-08
 
 ### Added
 - Allow `maxChainLength`, `maxClockSkew`, and `maxDelegationTtl` to be

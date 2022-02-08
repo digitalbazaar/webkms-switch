@@ -1,5 +1,11 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
+## 9.2.0 - 2022-02-xx
+
+### Added
+- Allow `maxChainLength`, `maxClockSkew`, and `maxDelegationTtl` to be
+  passed when creating operation middleware.
+
 ## 9.1.0 - 2022-01-14
 
 ### Added

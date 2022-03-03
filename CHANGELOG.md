@@ -1,5 +1,14 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
+## 10.0.0 - 2022-03-xx
+
+### Changed
+- **BREAKING**: Move zcap revocations to `/zcaps/revocations` to better
+  future proof.
+- **BREAKING**: Use `@digitalbazaar/ezcap-express@6`.
+- **BREAKING**: This version is compatible with
+  `@digitalbazaar/webkms-client@10`.
+
 ## 9.2.0 - 2022-02-08
 
 ### Added

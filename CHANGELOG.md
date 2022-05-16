@@ -1,6 +1,6 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
-## 10.1.0 - 2022-05-xx
+## 10.1.0 - 2022-05-16
 
 ### Added
 - Add option to pass a custom `getRootController` for KMS operation zcap

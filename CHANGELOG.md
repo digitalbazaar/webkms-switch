@@ -1,5 +1,12 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
+## 10.2.0 - 2022-05-xx
+
+### Added
+- Allow webkms application servers to set `req.webkms` keystore config.
+  Only ensure that the value matches what is expected and augment
+  `req.webkms` with the parsed KMS operation.
+
 ## 10.1.0 - 2022-05-16
 
 ### Added

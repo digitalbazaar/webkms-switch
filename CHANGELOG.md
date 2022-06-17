@@ -10,6 +10,9 @@
 - Update dependencies.
 - Lint module.
 
+### Added
+- Add basic import test.
+
 ## 10.3.0 - 2022-06-18
 
 ### Changed

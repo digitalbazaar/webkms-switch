@@ -1,5 +1,15 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
+## 11.0.0 - 2022-xx-xx
+
+### Changed
+- **BREAKING**: Convert to module (ESM).
+- **BREAKING**: Require Node.js >=14.
+- **BREAKING**: Dependencies require Web Crypto API. Older browsers and Node.js
+  14 users need to install an appropriate polyfill.
+- Update dependencies.
+- Lint module.
+
 ## 10.3.0 - 2022-06-18
 
 ### Changed

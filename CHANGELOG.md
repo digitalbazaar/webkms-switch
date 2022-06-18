@@ -1,5 +1,11 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
+## 10.3.0 - 2022-06-xx
+
+### Changed
+- Precompile KMS operation schema on startup (just once) to optimize
+  validation.
+
 ## 10.2.0 - 2022-05-16
 
 ### Added

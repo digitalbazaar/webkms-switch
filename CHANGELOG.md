@@ -8,6 +8,7 @@
   still function and context values will still be checked when present, but
   they are no longer required as this version starts the transition to using
   just JSON for WebKMS operations.
+- Indicate that node.js >= 18 is supported via package.json.
 
 ## 11.0.0 - 2022-06-30
 

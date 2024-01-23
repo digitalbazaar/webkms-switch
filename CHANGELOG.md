@@ -1,5 +1,14 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
+## 12.0.0 - 2024-mm-dd
+
+### Changed
+- **BREAKING**: Make JSON-LD context optional in WebKMS operations. Existing
+  clients that send JSON-LD WebKMS operations (instead of JSON ones) will
+  still function and context values will still be checked when present, but
+  they are no longer required as this version starts the transition to using
+  just JSON for WebKMS operations.
+
 ## 11.0.0 - 2022-06-30
 
 ### Changed

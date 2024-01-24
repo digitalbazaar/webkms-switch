@@ -1,6 +1,6 @@
 # @digitalbazaar/webkms-switch ChangeLog
 
-## 12.0.0 - 2024-mm-dd
+## 12.0.0 - 2024-01-24
 
 ### Changed
 - **BREAKING**: Make JSON-LD context optional in WebKMS operations. Existing
@@ -9,6 +9,8 @@
   they are no longer required as this version starts the transition to using
   just JSON for WebKMS operations.
 - Indicate that node.js >= 18 is supported via package.json.
+- This version is compatible with `@digitalbazaar/webkms-client@14` (and
+  some earlier versions).
 
 ## 11.0.0 - 2022-06-30
 
